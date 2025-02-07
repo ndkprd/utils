@@ -14,6 +14,10 @@ Usage:
 ./k8s-manifests-cleaner.sh /path/to/parent/dir
 ```
 
+### [k8s-yaml-mark-adder](./k8s-yaml-mark-adder.sh)
+
+For those who have this itch when they see a yaml file without "---" header.
+
 ### [k8s-kustomize-generator.py](https://github.com/ndkprd/kustomize-generator)
 
 Generate separate kustomize files based on joined YAML files/templated Helm charts. For usage, check the [repo](https://github.com/ndkprd/kustomize-generator).
