@@ -25,6 +25,9 @@ FIELDS_TO_DELETE=(
     '.metadata.managedFields'
     '.metadata.uid'
     '.metadata.resourceVersion'
+    '.spec.claimRef'
+    '.spec.clusterIP'
+    '.spec.clusterIPs'
     '.status'
 )
 
