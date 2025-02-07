@@ -1,0 +1,3 @@
+[submodule "k8s-kustomize-generator"]
+	path = k8s-kustomize-generator
+	url = https://github.com/ndkprd/kustomize-generator.git
