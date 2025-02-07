@@ -18,6 +18,12 @@ Usage:
 
 For those who have this itch when they see a yaml file without "---" header.
 
+Usage:
+
+```bash
+./k8s-yaml-mark-adder.sh /path/to/parent/dir
+```
+
 ### [k8s-kustomize-generator.py](https://github.com/ndkprd/kustomize-generator)
 
 Generate separate kustomize files based on joined YAML files/templated Helm charts. For usage, check the [repo](https://github.com/ndkprd/kustomize-generator).
