@@ -14,7 +14,7 @@ Usage:
 ./k8s-manifests-cleaner.sh /path/to/parent/dir
 ```
 
-### [k8s-yaml-mark-adder](./k8s-yaml-mark-adder.sh)
+### [k8s-yaml-mark-adder.sh](./k8s-yaml-mark-adder.sh)
 
 For those who have this itch when they see a yaml file without "---" header.
 
