@@ -28,6 +28,7 @@ FIELDS_TO_DELETE=(
     '.spec.claimRef'
     '.spec.clusterIP'
     '.spec.clusterIPs'
+    '.spec.template.metadata.annotations'
     '.status'
 )
 
