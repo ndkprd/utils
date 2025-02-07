@@ -14,9 +14,9 @@ Usage:
 ./k8s-manifests-cleaner.sh /path/to/parent/dir
 ```
 
-### [k8s-kustomize-generator.py](https://github.com/ndkprd/k8s-kustomize-generator)
+### [k8s-kustomize-generator.py](https://github.com/ndkprd/kustomize-generator)
 
-Generate separate kustomize files based on joined YAML files/templated Helm charts. For usage, check the [repo](https://github.com/ndkprd/k8s-kustomize-generator).
+Generate separate kustomize files based on joined YAML files/templated Helm charts. For usage, check the [repo](https://github.com/ndkprd/kustomize-generator).
 
 ## LICENSE
 
