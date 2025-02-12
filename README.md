@@ -28,7 +28,7 @@ Usage:
 
 Generate separate kustomize files based on joined YAML files/templated Helm charts. For usage, check the [repo](https://github.com/ndkprd/kustomize-generator).
 
-### [log-cleaner.sh]
+### [log-cleaner.sh](./log-cleaner.sh)
 
 Clean up logs older than certain days.
 
