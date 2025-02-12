@@ -39,7 +39,7 @@ log() {
     local level=$1
     local message=$2
     local timestamp=$(date +'%Y-%m-%dT%H:%M:%S')
-    local log_entry="$timestamp [$level] cleanup_script.sh $message"
+    local log_entry="$timestamp [$level] log_cleaner.sh $message"
     echo "$log_entry" | tee -a "$LOG_FILE"
 }
 
