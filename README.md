@@ -40,7 +40,7 @@ Since this is mostly used by cron, the directory list and retention days is hard
 ./log-cleaner.sh
 ```
 
-### [openshift_loginer.sh](./openshift_loginer)
+### [openshift_loginer.sh](./openshift_loginer.sh)
 
 Do `oc login` to multiple clusters at once. Really useful if you work with multiple contexts using [k9s](https://github.com/derailed/k9s).
 
