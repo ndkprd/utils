@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# Script to generate a new cluster-admin user.
+# Good enough after a fresh cluster install, and you want to move
+# to your own user instead of the default kubeadmin user.
+
 # 1. Ask for username, group name, and cluster name
 read -p "Enter user name: " USERNAME
 read -p "Enter group name: " GROUPNAME
