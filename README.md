@@ -4,6 +4,18 @@ Random bash/python utility/hacks I made for various daily tasks.
 
 ## Usage
 
+### [k8s_user_generator.sh](./k8s_user_generator.sh)
+
+Generate a new local user for your Kubernetes cluster (currently only support cluster admin). It will basically generate private key and CSR for you, and then sign it using your current kubeconfig context.
+
+Usage:
+
+```bash
+./k8s_user_generator.sh
+```
+
+After you ran the script, it will then ask for your wished username, group, and the cluster name. The generated files will saved to "<username>@<clustername>" directory in the current workdir.
+
 ### [k8s_manifests_cleaner.sh](./k8s_manifests_cleaner.sh)
 
 Remove server-side generated Kubernetes fields from manifests yaml file. Require [yq](https://github.com/mikefarah/yq).
